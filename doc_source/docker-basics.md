@@ -51,7 +51,7 @@ You don't even need a local development system to use Docker\. If you are using 
    docker info
    ```
 **Note**  
-In some cases, you may need to reboot your instance to provide permissions for the `ec2-user` to access the Docker daemon\. Try rebooting your instance if you see the following error:  
+In some cases, you may need to logout and log back in, or reboot your instance to provide permissions for the `ec2-user` to access the Docker daemon\. Try logging back in or rebooting your instance if you see the following error:  
 
    ```
    Cannot connect to the Docker daemon. Is the docker daemon running on this host?
